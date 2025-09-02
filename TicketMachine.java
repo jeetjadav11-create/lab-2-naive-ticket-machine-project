@@ -9,7 +9,7 @@
  * @author David J. Barnes and Michael Kölling
  * @version 7.0
  */
-public class TicketMachine
+ public class TicketMachine
 {
     // The price of a ticket from this machine.
     private int price;
@@ -42,7 +42,7 @@ public class TicketMachine
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getBalance()
+    public int getAmount()
     {
         return balance;
     }
@@ -54,7 +54,12 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+    
+    public int getTotal()
+    {
+    return total;
+    } 
+    
     /**
      * Print a ticket.
      * Update the total collected and

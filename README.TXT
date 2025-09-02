@@ -68,5 +68,26 @@ How to start this project: Create one or more TicketMachine objects.
 
 25. no , they cn be different
 
-26. 
+27. missing return satement 
 
+28. the body of ticket is way longer and more detailled 
+
+29.this balance = balance + amount; and this  balance = 0;
+
+31. score = score + points 
+
+32. because a  mutator is Used to mutate (i.e., change) an object’s state.
+
+33. price = price - amount 
+
+34. public void currentAge(int age)
+{
+currentage = age;
+}
+
+35.  private boolean alive(int age)
+{
+alive = age;
+}
+
+36. 
