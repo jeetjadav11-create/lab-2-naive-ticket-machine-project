@@ -52,7 +52,7 @@ How to start this project: Create one or more TicketMachine objects.
 
 17.private int status
 
-18. public?
+18. Student
 
 19.1)title(string),price(double)
 
@@ -90,4 +90,13 @@ currentage = age;
 alive = age;
 }
 
-36. 
+36. its always 0
+
+37. My cat has green eyes.
+
+39. it would say (# price cents ) 
+
+40. the same as 39
+
+41. 
+
