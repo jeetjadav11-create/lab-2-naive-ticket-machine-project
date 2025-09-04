@@ -23,9 +23,9 @@
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine()
     {
-        price = cost;
+        price = 1000;
         balance = 0;
         total = 0;
     }
@@ -71,7 +71,7 @@
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.printf( "# %d cents.%n", price);
         System.out.println("##################");
         System.out.println();
 
@@ -91,6 +91,13 @@
     public void showprice()
     {
         System.out.println("The price of a ticket is " + price + " cents.");
+    
+        
+    }
+    
+    public void empty()
+    {
+        total=0;
     
         
     }

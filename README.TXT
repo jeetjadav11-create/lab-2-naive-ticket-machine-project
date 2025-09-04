@@ -98,5 +98,12 @@ alive = age;
 
 40. the same as 39
 
-41. 
+43, yes , i cant work out what the thinhs mean 
+
+42. its the diffreent price of each machine
+
+44. the price is 1000 forever
+
+46.no need for a parameter and its a mutator method 
+
 
